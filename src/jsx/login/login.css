@@ -1,0 +1,52 @@
+.login-box-bg{
+    background-color: white;
+    width:100%;
+    max-width:650px;
+    /* box-shadow: 2px 2px 3px 0px rgb(241, 241, 241); */
+    filter:drop-shadow(2px 2px 5px 0px rgb(241, 241, 241));
+    padding:20px;
+    margin:auto;
+    /* height:500px; */
+}
+
+.login-page-hdg{
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    text-align: center;
+}
+.log-input-box{
+    border:solid 1px rgb(179, 179, 179);
+    font-size:14px;
+    font-weight: 500;
+    width:100%;
+    padding:10px;
+    border-radius: 5px;
+    margin-top:15px;
+   
+}
+
+.login-bg-box{
+    background-image: url('../../assets/images/loginbg.avif');
+    padding:100px;
+    background-size: cover;
+    /* height:500px; */
+}
+
+.new-user-fntsz{
+    font-size:15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:30px
+}
+.error{
+    font-size:13px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    color:red;
+}
+@media only screen and (max-width:767.99px){
+    .login-bg-box{
+        padding:10px;
+    }
+}
